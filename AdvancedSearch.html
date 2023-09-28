@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Image Search</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <a href="index.html" target="_blank">Google Search</a>
+        <br><br>
+        
+        <div style="font-size: 20px; margin: 25px 35px;">
+            <label style="color: #d93025; font-size: 20px; margin-left: 10px;">Advanced Search</label>   
+        </div>
+
+        <div style="width: 96%; max-width: 1140px; min-width: 200px; margin: 40px 2% 0 45px;">
+            <form action="https://www.google.com/search" method="get" target="_blank">
+                
+                <div style="display: inline-block;min-width: 167px;width: 16%;font-size: 16px;min-height: 42px;font-weight: 500;color: #333;vertical-align: middle;">
+                    <div style="height: 30px;display: table-cell;vertical-align: middle;">
+                        <span style="float: left;">Find pages with...</span>
+                    </div>
+                </div>
+                <br><br>
+                
+                <div style="width: 100%; clear: both;">
+                    <div style="display: inline-block;min-width: 167px;
+                    width: 16%;height: 42px;color: #222;font-size: 13px;line-height: 16px;vertical-align: middle;">
+                        <div style="height: 30px;display: table-cell;vertical-align: middle;">
+                            <label> all of these words:</label>
+                        </div>
+                    </div>
+                    <div style="display: inline-block;min-width: 167px;min-height: 41px;vertical-align: middle;width: 50%;">
+                        <div style="padding-right: 16px;">
+                            <input type="text" name="as_q" value autofocus="autofocus"
+                            style="width: 100%;text-align: left;">
+                        </div>
+                    </div>                 
+                </div>
+
+                <div style="width: 100%; clear: both;">
+                    <div style="display: inline-block;min-width: 167px;
+                    width: 16%;height: 42px;color: #222;font-size: 13px;line-height: 16px;vertical-align: middle;">
+                        <div style="height: 30px;display: table-cell;vertical-align: middle;">
+                            <label> this exact word or phrase:</label>
+                        </div>
+                    </div>
+                    <div style="display: inline-block;min-width: 167px;
+                    min-height: 41px;vertical-align: middle;width: 50%;">
+                        <div style="padding-right: 16px;">
+                            <input type="text" name="as_epq"
+                            style="width: 100%;text-align: left;">
+                        </div>
+                    </div>                 
+                </div>
+
+                <div style="width: 100%; clear: both;">
+                    <div style="display: inline-block;min-width: 167px;
+                    width: 16%;height: 42px;color: #222;font-size: 13px;line-height: 16px;vertical-align: middle;">
+                        <div style="height: 30px;display: table-cell;vertical-align: middle;">
+                            <label> any of these words:</label>
+                        </div>
+                    </div>
+                    <div style="display: inline-block;min-width: 167px;
+                    min-height: 41px;vertical-align: middle;width: 50%;">
+                        <div style="padding-right: 16px;">
+                            <input type="text" name="as_oq"
+                            style="width: 100%;text-align: left;">
+                        </div>
+                    </div>                 
+                </div>
+
+                <div style="width: 100%; clear: both;">
+                    <div style="display: inline-block;min-width: 167px;
+                    width: 16%;height: 42px;color: #222;font-size: 13px;line-height: 16px;vertical-align: middle;">
+                        <div style="height: 30px;display: table-cell;vertical-align: middle;">
+                            <label> none of these words:</label>
+                        </div>
+                    </div>
+                    <div style="display: inline-block;min-width: 167px;
+                    min-height: 41px;vertical-align: middle;width: 50%;">
+                        <div style="padding-right: 16px;">
+                            <input type="text" name="as_eq"
+                            style="width: 100%;text-align: left;">
+                        </div>
+                    </div>                 
+                </div>
+
+                <br><br>
+                <div style="text-align: right;display: inline-block;min-width: 167px;min-height: 41px;vertical-align: middle;width: 50%;">
+                    <input type="hidden" value>
+                    <input type="submit" value="Advanced Search"
+                    style="background-color: #4d90fe; border: 1px solid #3079ed;
+                    color: #fff; border-radius: 2px; font-size: 11px; text-align: center;
+                    font-weight: bold; height: 30px; min-width: 120px; float: right; margin: 10px 0;
+                    padding: 0 12px; line-height: 100%;">
+                </div>
+            </form>
+        </div>
+    </body>
+</html>
